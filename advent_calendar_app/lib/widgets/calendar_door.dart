@@ -21,7 +21,7 @@ class CalendarDoor extends StatelessWidget {
       case CalendarDoorState.available:
         return theme.colorScheme.primaryContainer;
       case CalendarDoorState.locked:
-        return theme.colorScheme.surfaceVariant;
+        return theme.colorScheme.surfaceContainerHighest;
     }
   }
 
