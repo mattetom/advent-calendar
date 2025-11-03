@@ -1,0 +1,44 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+linked_*
+.coverage
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/GeneratedPluginRegistrant.kt
+
+# iOS related
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Podfile.lock
+**/ios/Pods
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web related
+**/web/.dart_tool
+
+# Linux related
+**/linux/flutter/ephemeral
+
+# macOS related
+**/macos/Flutter/ephemeral
+
+# Windows related
+**/windows/flutter/ephemeral
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
